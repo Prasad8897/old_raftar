@@ -1,0 +1,74 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+    background-image: url(../bg.png);
+}
+
+.jumbotron
+{
+    color: white;
+    background-color: transparent;
+    margin-bottom: 0px;
+     font-family: 'Cutive', sans-serif;
+}
+
+.carousel-inner
+{
+    padding: 90px 0px;
+    overflow: visible;
+}
+
+.h3
+{
+    font-family: 'Raleway',serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row
+{
+    padding: 40px 0px;   
+}
+
+@media (min-width: 767px)
+{
+
+}
+
+.col-md-8 .video{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.col-md-8 iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.col-md-8 .page
+{
+    position:relative;
+	padding-bottom:80%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+
+.container
+::-webkit-scrollbar {
+  height: 6px;
+  width: 4px;
+  background: white;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27C418;
+}

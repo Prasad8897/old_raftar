@@ -1,0 +1,52 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+    background-image:url(../bg.png);
+}
+
+.jumbotron h2, h1
+{
+    font-family: 'Cutive', sans-serif;
+}
+
+.jumbotron
+{
+    background-color: #27C418;
+    padding-bottom: 200px;
+    margin-bottom: 0px;
+    color: white;
+    
+}
+
+.jumbotron p
+{
+    font-family: 'Raleway', sans-serif;
+ text-align: justify;
+    font-size: 16px;
+    
+}
+
+.row
+{
+    padding: 50px 0px;
+}
+
+.carousel img
+{
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.item h1
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-caption
+{
+    position: inherit;
+    padding-top: 0px;
+    text-shadow: 0 0px 0px;
+}

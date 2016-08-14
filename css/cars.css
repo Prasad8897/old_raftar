@@ -1,0 +1,100 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+    background-image: url(../bg.png);
+}
+
+.jumbotron h2
+{
+    font-family: 'Cutive', sans-serif;
+}
+
+.jumbotron
+{
+    background-color: transparent;
+    padding-bottom: 200px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
+}
+
+.row
+{
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    padding: 30px 0px;
+}
+
+.jumbotron .container img
+{
+    max-width: 585px;
+}
+
+
+.jumbotron .row .col-md-6
+{
+    max-height: 275px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.jumbotron .row .col-md-6 .data
+{
+    max-height: 260px;
+    overflow-y: scroll;
+}
+
+
+
+/*affects scrolls*/
+.row
+::-webkit-scrollbar {
+  height: 6px;
+  width: 4px;
+  background: #27C418;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.container
+{
+margin: auto;
+}
+
+.row .col-md-6 .rfr13
+{
+    background-image: url("../images/rfr13.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+.row .col-md-6 .rfr15
+{
+    background-image: url("../images/rfr15.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+.row .col-md-6 .rfr16
+{
+    background-image: url("../images/rfr16.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+@media (max-width: 767px)
+{
+    
+    
+    .jumbotron .row .col-md-6 .data
+    {
+        
+    }
+}
