@@ -88,6 +88,20 @@ margin: auto;
     background-size: contain;
     height: 400px;
 }
+.row .col-md-6 .rfr17
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+.rfr17 h2{
+    text-align: left;
+}
+ .rfr17 img{
+    margin-top: -35px;
+    height: 350px;
+    width: 720px;
+ }
 
 @media (max-width: 767px)
 {

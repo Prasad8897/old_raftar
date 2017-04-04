@@ -3,8 +3,7 @@
     max-height: 300px;
     max-width: 80% ;
     margin: 0px 30px;
-    
-    
+    align-items: center;   
 }
 
 .row .col-md-3
