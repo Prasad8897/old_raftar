@@ -6,7 +6,9 @@ body {
 }
 
 
-
+a:link{
+    color:red;
+}
 .jumbotron
 {
     text-align: left;
@@ -140,3 +142,4 @@ body {
 {
     background-color: black;
 }
+

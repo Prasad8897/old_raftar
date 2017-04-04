@@ -91,10 +91,10 @@ margin: auto;
 
 @media (max-width: 767px)
 {
-    
-    
     .jumbotron .row .col-md-6 .data
     {
-        
     }
+}
+tr{
+    color: white;
 }
