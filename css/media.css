@@ -1,7 +1,13 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-    background-image: url(../bg.png);
+  background-image: url(../bg.png);
+}
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #ffffff;
 }
 
 .jumbotron
